@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Cairo:wght@400;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", "Cairo", system-ui, sans-serif;
+  --color-red-500: #D62828;
+  --color-red-600: #B81D1D;
+  --color-red-700: #9E1616;
+  --color-red-950: #3D0505;
+  --color-amber-500: #FFC107;
+  --color-amber-600: #E0A800;
+  --color-amber-400: #FFE082;
+  --color-zinc-950: #111111;
+  --color-black: #111111;
+  --color-neutral-950: #111111;
+}
+
+@variant dark (&:where(.dark, .dark *));

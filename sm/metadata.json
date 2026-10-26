@@ -1,0 +1,6 @@
+{
+  "name": "Mr. Broast Menu & Ordering",
+  "description": "Premium language-switching restaurant ordering app and admin CMS dashboard for Mr. Broast.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
